@@ -6,7 +6,12 @@ using namespace std;
 
 class Doggo{
   public: 
-    Doggo(); 
+    Doggo(string y){
+      cout << "I'm a doggo." << endl; 
+      cout << "Woof bitch" << endl;
+      setName(y); 
+    }
+
     void speak(){
       cout << "Woof bitch" << endl;
     }
@@ -26,8 +31,8 @@ class Doggo{
     string name; 
 };
 
-Doggo::Doggo(){
-  cout << "I'm a doggo." << endl; 
-}
+//Doggo::Doggo(){
+//  cout << "I'm a doggo." << endl; 
+//}
 
 #endif // DOGGO_H
